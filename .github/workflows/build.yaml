@@ -9,4 +9,4 @@ on:
       - reopened
 jobs:
   reusable_job:
-    uses: mattsmith47988/.github/.github/workflows/reusable_demo.yaml
+    uses: mattsmith47988/.github/.github/workflows/reusable_demo.yaml@main
