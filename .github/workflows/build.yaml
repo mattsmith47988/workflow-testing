@@ -1,12 +1,6 @@
 name: Build
 
-on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
+on: push
 jobs:
   reusable_job:
     uses: mattsmith47988/.github/.github/workflows/reusable_demo.yaml@main
