@@ -3,4 +3,4 @@ name: Build
 on: push
 jobs:
   reusable_job:
-    uses: mattsmith47988/.github/.github/workflows/reusable/reusable_test.yaml@main
+    uses: mattsmith47988/.github/.github/workflows/reusable_test.yaml@main
