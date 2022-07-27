@@ -4,3 +4,5 @@ on: push
 jobs:
   reusable_job:
     uses: mattsmith47988/.github/.github/workflows/reusable_test.yaml@main
+    with:
+      TEST_INPUT: 'argocd_url_or_something'
